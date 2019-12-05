@@ -73,10 +73,20 @@ img {
     display: block;
 }
 
-.information {
-    border: 112px solid rgb(255, 200, 48);;
-    padding: ;
-    margin: px, 0px;
-    box-sizing: border-box;
-    
+.informationright {
+    padding: 3%;
+    margin: 20%;
+    background:#eedda7;   
+    font-size: 100%; 
+    position: absolute;
+    bottom: 100;
+    top: 0px;
+}
+
+div h1 {
+    color:#eedda7; 
+}
+
+.right {
+    margin-left: 53%;
 }
