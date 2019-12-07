@@ -31,7 +31,6 @@ nav ul li{
     display: inline-block;
     list-style-type: none;
     background:#eedda7;
-  
 }
  
 /// CSS FOR EVERYTHING ELSE
@@ -54,46 +53,53 @@ h2 a {
 }
  
 img {
-    width: 790px;
+    width: 41.2vw;
     height: auto;
     display: block;
 }
 
 .album {
-    margin-top: 20px;
+    margin-top: 4%;
+    width: 35vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
  
 .informationleft {
+    float: left;
     margin-left: 80px;
-    padding: 40px; 
+    padding: 2%; 
     overflow: hidden; 
     background-color: #eedda7;  
-    width: 810px; 
+    width: 40%; 
+    margin-top: 11.5%;
     font-size: 110%;
-    margin-top: 0px;
-    
+    margin-bottom: -9%;
 }
 
 .informationcenter {
-    margin-left: 500px;
-    padding: 40px;
-    overflow: hidden;
-    background-color: #eedda7;
-    width: 1200px;
-    display: inline-block;
-    font-size: 110%;
-    margin-top: 0px;
-
-}
-.informationright {
+    float: center;
     margin-left: 80px;
-    padding: 40px; 
+    padding: 2%; 
     overflow: hidden; 
     background-color: #eedda7;  
-    width: 810px; 
-    display: inline-block;
+    width: 40%; 
+    margin-top: 12%;
     font-size: 110%;
-    margin-top: 0px;
+}
+
+broken ///////////
+
+.informationright {
+    float: right;
+    padding: 2%; 
+    overflow: hidden; 
+    background-color: #eedda7;  
+    width: 40%; 
+    margin-top: 12%;
+    font-size: 110%;
 }
  
 h1 {
@@ -105,9 +111,9 @@ h2 {
 }
  
 .right {
-    margin-left: 1050px;
-    position: absolute;
-    margin-top: 90px;
+    margin-right: 78px;
+    margin-top: 80px;
+    float: right;
 }
 
 .center {
@@ -122,10 +128,31 @@ h2 {
 }
 
 .name {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 75px;
-    font-size: 320%;
+    font-size: 2.42vw;
     vertical-align: text-bottom;
     margin-bottom: -35px;
+    position: absolute;
 }
+
+.songs {
+    padding: .1%;
+    margin-top: 4%;
+    margin-left: 13vw;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.songs li {
+    padding: 20px;
+    margin-top: 80px;
+    background-color: rgb(255, 200, 48);
+    font-size: 25px;
+    margin-left: 12vw;
+    list-style-type: none;
+}
+
+
 
