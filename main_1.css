@@ -18,8 +18,9 @@ body {
 /* SPACING BETWEEN NAV BOXES*/
 
 nav ul{
-    margin: 0;
-    padding-left: 25%;
+    float: left;
+    margin-left: 22.9vw;
+    margin-top: 0px;
 }
 
 /* NAV BOXES*/
@@ -30,6 +31,7 @@ nav ul li{
     display: inline-block;
     list-style-type: none;
     background:#eedda7;
+    margin-bottom: 5px;
 }
  
 /* BANNER TITLE TEXT*/
@@ -42,7 +44,8 @@ h2 a {
 /* SPACE AROUND BANNER TITLE*/
 
 .banner h2 {
-    padding-left: 22%;
+    float: left;
+    margin-left: 22vw;
 }
 
 /* BANNER COLOR*/
@@ -123,8 +126,9 @@ img {
 /* SOLID STATE SURVIVOR SONG NAME'S APPEARANCE*/
 
 .songs li {
-    padding: 20px 1195px 20px 20px;
+    padding: 20px 62.25vw 20px 20px;
     margin-top: 80px;
+    text-align:left;
     background-color: rgb(255, 200, 48);
     font-size: 25px;
     margin-left: 12vw;
@@ -142,15 +146,19 @@ img {
     margin-right: auto;
 }
 
+/* SIZE ADJUSTMENT OF PLAY BUTTON WHEN PLAYING */
+
 .ion-pause {
    padding: .5px;
 }
+
+/* APPEARANCE OF PLAY BUTTON */
 
 .play,.play2,.play3,.play4,.play5,.play6,.play7,.play8 {
     padding: 18px 30px 18px 30px;
     background-color: #eedda7; 
     border: 1px #eedda7; 
-    margin-left: 1575px;
+    margin-left: 81.4vw;
     margin-top: -78px;
     position: absolute;
     border-radius: 30%;
