@@ -126,12 +126,15 @@ img {
 /* SOLID STATE SURVIVOR SONG NAME'S APPEARANCE*/
 
 .songs li {
-    padding: 20px 62.25vw 20px 20px;
+    
+    margin-left: 12.1vw;
+    float:left;
+    padding: 1.3vw; 
+    background-color: #eedda7;  
+    width: 72.55vw; 
     margin-top: 80px;
-    text-align:left;
     background-color: rgb(255, 200, 48);
     font-size: 25px;
-    margin-left: 12vw;
     list-style-type: none;
 }
 
@@ -155,11 +158,12 @@ img {
 /* APPEARANCE OF PLAY BUTTON */
 
 .play,.play2,.play3,.play4,.play5,.play6,.play7,.play8 {
-    padding: 18px 30px 18px 30px;
+    padding: 1vw 1.5vw 1vw 1.5vw;
     background-color: #eedda7; 
     border: 1px #eedda7; 
-    margin-left: 81.4vw;
-    margin-top: -78px;
-    position: absolute;
+    margin-right: 15.5vw;
+    margin-top: -3.5vw;
+    float:right;
     border-radius: 30%;
+    position: relative;
 }
